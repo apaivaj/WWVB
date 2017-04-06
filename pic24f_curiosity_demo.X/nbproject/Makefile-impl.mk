@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=pic24f_curiosity_demo.X
+PROJECTNAME=WWVB
 
 # Active Configuration
 DEFAULTCONF=default
