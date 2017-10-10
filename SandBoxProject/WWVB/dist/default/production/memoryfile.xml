@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/WWVB.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>82</used>
+      <free>8110</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>66624</length>
+      <used>3252</used>
+      <free>63372</free>
+    </memory>
+  </executable>
+</project>
