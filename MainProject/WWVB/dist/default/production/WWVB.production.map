@@ -1,20 +1,26 @@
-Microchip Technology Inc, v1.32 (B)
+Microchip Technology Inc, v1.31 (A)
 
 Tool Name:
-  c:\program files (x86)\microchip\xc16\v1.32\bin\bin\..\bin/elf-ld.exe
+  /Applications/microchip/xc16/v1.31/bin/bin/../bin/elf-ld
 
 Command:
   -p33EP64GS502 \
   -o \
   dist/default/production/WWVB.production.elf \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/.. \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/PIC24E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/PIC24F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/PIC24H/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/dsPIC30F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/dsPIC33E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../support/dsPIC33F/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/.. \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/PIC24E \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/PIC24E/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/PIC24F \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/PIC24F/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/PIC24H \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/PIC24H/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/dsPIC30F \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/dsPIC30F/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/dsPIC33E \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/dsPIC33E/gld \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../lib/dsPIC33F \
+  -L/Applications/microchip/xc16/v1.31/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/mcc_generated_files/pin_manager.o \
   build/default/production/mcc_generated_files/interrupt_manager.o \
   build/default/production/mcc_generated_files/traps.o \
@@ -46,17 +52,15 @@ Command:
   --library=lega-c-elf \
   -end-group \
 
-
-Optional library libp33EP64GS502.a not found
 Archive member included because of file (symbol)
 
-c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+/Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt0_extendedep.o)
                               (__resetPRI)
-c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
-                              c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o) (__data_init_extended)
-c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
+/Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(data_init_extended.o)
+                              /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt0_extendedep.o) (__data_init_extended)
+/Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
                               (__crt_start_mode_normal)
-c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(delay32ep.Leo)
+/Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(delay32ep.Leo)
                               build/default/production/main.o (___delay32)
 
 
@@ -81,15 +85,15 @@ CodeGuard RAM Memory:
   boot    (none)
 
 
-xc16-ld 1.32 (B)
+xc16-ld 1.31 (A)
 
 Program Memory  [Origin = 0x200, Length = 0xad80]
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-.text                        0x200               0x3aa           0x57f  (1407)
-.const                       0x5aa                0x14            0x1e  (30)
-.text                        0x5be               0x44c           0x672  (1650)
+.text                        0x200               0x15a           0x207  (519)
+.const                       0x35a                0x14            0x1e  (30)
+.text                        0x36e               0x69c           0x9ea  (2538)
 .dinit                       0xa0a                0x22            0x33  (51)
 .init.delay32                0xa2c                0x1c            0x2a  (42)
 .text                        0xa48                0x30            0x48  (72)
@@ -143,15 +147,15 @@ External Symbols in Program Memory (by address):
                   0x000314                  __MathError
                   0x00031c                  __HardTrapError
                   0x000324                  __SoftTrapError
-                  0x000354                  __MI2C1Interrupt
-                  0x0005a4                  __DefaultInterrupt
-                  0x0005aa                  _MemAddress
-                  0x0005ab                  _OSXAddress
-                  0x0005ac                  _SmpHldAddress
-                  0x0005ad                  _RFAddress
-                  0x0005bc                  _DispAddress
-                  0x0005be                  _I2C1_Initialize
-                  0x0005f4                  _I2C1_ErrorCountGet
+                  0x000354                  __DefaultInterrupt
+                  0x00035a                  _MemAddress
+                  0x00035b                  _OSXAddress
+                  0x00035c                  _SmpHldAddress
+                  0x00035d                  _RFAddress
+                  0x00036c                  _DispAddress
+                  0x00036e                  _I2C1_Initialize
+                  0x0003a4                  _I2C1_ErrorCountGet
+                  0x0003b2                  __MI2C1Interrupt
                   0x00063e                  _I2C1_MasterWrite
                   0x000670                  _I2C1_MasterRead
                   0x0006a2                  _I2C1_MasterTRBInsert
@@ -183,9 +187,9 @@ External Symbols in Program Memory (by address):
 External Symbols in Program Memory (by name):
 
                   0x00095a                  _BackupData
-                  0x0005bc                  _DispAddress
-                  0x0005f4                  _I2C1_ErrorCountGet
-                  0x0005be                  _I2C1_Initialize
+                  0x00036c                  _DispAddress
+                  0x0003a4                  _I2C1_ErrorCountGet
+                  0x00036e                  _I2C1_Initialize
                   0x00076e                  _I2C1_MasterQueueIsEmpty
                   0x000788                  _I2C1_MasterQueueIsFull
                   0x000670                  _I2C1_MasterRead
@@ -194,11 +198,11 @@ External Symbols in Program Memory (by name):
                   0x00063e                  _I2C1_MasterWrite
                   0x00074a                  _I2C1_MasterWriteTRBBuild
                   0x000a48                  _INTERRUPT_Initialize
-                  0x0005aa                  _MemAddress
+                  0x00035a                  _MemAddress
                   0x0007d2                  _OSCILLATOR_Initialize
-                  0x0005ab                  _OSXAddress
+                  0x00035b                  _OSXAddress
                   0x000978                  _PIN_MANAGER_Initialize
-                  0x0005ad                  _RFAddress
+                  0x00035d                  _RFAddress
                   0x0007fc                  _SYSTEM_GetResetCause
                   0x0007be                  _SYSTEM_Initialize
                   0x0008f8                  _SYSTEM_ResetCauseClear
@@ -212,12 +216,12 @@ External Symbols in Program Memory (by name):
                   0x000928                  _SendErrorToDisplay
                   0x000910                  _SendToDisplay
                   0x000940                  _SetTime
-                  0x0005ac                  _SmpHldAddress
+                  0x00035c                  _SmpHldAddress
                   0x00030c                  __AddressError
-                  0x0005a4                  __DefaultInterrupt
+                  0x000354                  __DefaultInterrupt
                   0x00af80                  __FSEC.sec
                   0x00031c                  __HardTrapError
-                  0x000354                  __MI2C1Interrupt
+                  0x0003b2                  __MI2C1Interrupt
                   0x000314                  __MathError
                   0x0002fa                  __OscillatorFail
                   0x000324                  __SoftTrapError
@@ -261,8 +265,8 @@ LOAD build/default/production/mcc_generated_files/i2c1.o
 LOAD build/default/production/main.o
 LOAD build/default/production/DisplayComands.o
                     0x0001                  __MPLAB_BUILD = 0x1
-LOAD p33EP64GS502
-LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\libfx-elf.a
+LOAD /Applications/microchip/xc16/v1.31/bin/bin/../../lib/dsPIC33E/libp33EP64GS502-elf.a
+LOAD /Applications/microchip/xc16/v1.31/bin/bin/../../lib/libfx-elf.a
                     0x801000                  __FBOOT = 0x801000
                     0x0004                  __IVT_BASE = 0x4
                     0xaf80                  __FSEC = 0xaf80
@@ -290,15 +294,15 @@ LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\libfx-elf.a
                   0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
                   0x000003          0x2 SHORT 0x0
 
-.text             0x000200        0x3aa
+.text             0x000200        0x15a
  *(.init)
- .init            0x000200         0x48 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
-                  0x000200                  __resetPRI
+ .init            0x000200         0x48 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt0_extendedep.o)
                   0x000200                  __reset
+                  0x000200                  __resetPRI
                   0x00023c                  __psv_init
- .init            0x000248         0xb2 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
-                  0x000248                  __data_init
+ .init            0x000248         0xb2 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(data_init_extended.o)
                   0x000248                  __data_init_extended
+                  0x000248                  __data_init
  *(.user_init)
  *(.handle)
  *(.isr*)
@@ -310,18 +314,16 @@ LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\libfx-elf.a
                   0x000314                  __MathError
                   0x00031c                  __HardTrapError
                   0x000324                  __SoftTrapError
- .isr.text        0x000354        0x250 build/default/production/mcc_generated_files/i2c1.o
-                  0x000354                  __MI2C1Interrupt
- .isr             0x0005a4          0x4 default_isr
-                  0x0005a4                  __DefaultInterrupt
+ .isr             0x000354          0x4 default_isr
+                  0x000354                  __DefaultInterrupt
  *(.libc)
  *(.libm)
  *(.libdsp)
  *(.lib*)
  .libpic30_crt_start_mode
-                  0x0005a8          0x2 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
-                  0x0005a8                  __crt_start_mode
-                  0x0005a8                  __crt_start_mode_normal
+                  0x000358          0x2 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
+                  0x000358                  __crt_start_mode_normal
+                  0x000358                  __crt_start_mode
 
 usercode
  *(usercode)
@@ -367,15 +369,15 @@ __FBTSEQ
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x2e4a
+.debug_info       0x000000       0x2e89
  *(.debug_info)
- .debug_info      0x000000        0x413 build/default/production/mcc_generated_files/pin_manager.o
- .debug_info      0x000413        0x2a6 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x0006b9        0x5a5 build/default/production/mcc_generated_files/traps.o
- .debug_info      0x000c5e        0xa3c build/default/production/mcc_generated_files/mcc.o
- .debug_info      0x00169a        0xf74 build/default/production/mcc_generated_files/i2c1.o
- .debug_info      0x00260e        0x3ad build/default/production/main.o
- .debug_info      0x0029bb        0x48f build/default/production/DisplayComands.o
+ .debug_info      0x000000        0x41c build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x00041c        0x2af build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x0006cb        0x5ae build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x000c79        0xa45 build/default/production/mcc_generated_files/mcc.o
+ .debug_info      0x0016be        0xf7d build/default/production/mcc_generated_files/i2c1.o
+ .debug_info      0x00263b        0x3b6 build/default/production/main.o
+ .debug_info      0x0029f1        0x498 build/default/production/DisplayComands.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x7f2
@@ -388,15 +390,15 @@ __FBTSEQ
  .debug_abbrev    0x000600         0xd6 build/default/production/main.o
  .debug_abbrev    0x0006d6        0x11c build/default/production/DisplayComands.o
 
-.debug_line       0x000000        0x82a
+.debug_line       0x000000        0x7ab
  *(.debug_line)
- .debug_line      0x000000         0xbf build/default/production/mcc_generated_files/pin_manager.o
- .debug_line      0x0000bf         0xb6 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_line      0x000175        0x13a build/default/production/mcc_generated_files/traps.o
- .debug_line      0x0002af        0x17a build/default/production/mcc_generated_files/mcc.o
- .debug_line      0x000429        0x1ec build/default/production/mcc_generated_files/i2c1.o
- .debug_line      0x000615         0xf6 build/default/production/main.o
- .debug_line      0x00070b        0x11f build/default/production/DisplayComands.o
+ .debug_line      0x000000         0xb6 build/default/production/mcc_generated_files/pin_manager.o
+ .debug_line      0x0000b6         0xad build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_line      0x000163        0x128 build/default/production/mcc_generated_files/traps.o
+ .debug_line      0x00028b        0x168 build/default/production/mcc_generated_files/mcc.o
+ .debug_line      0x0003f3        0x1c7 build/default/production/mcc_generated_files/i2c1.o
+ .debug_line      0x0005ba         0xe4 build/default/production/main.o
+ .debug_line      0x00069e        0x10d build/default/production/DisplayComands.o
 
 .debug_frame      0x000000        0x4d8
  *(.debug_frame)
@@ -1696,9 +1698,9 @@ __FBTSEQ
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\libm-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-c-elf.a
+LOAD /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a
+LOAD /Applications/microchip/xc16/v1.31/bin/bin/../../lib/libm-elf.a
+LOAD /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-c-elf.a
 END GROUP
 OUTPUT(dist/default/production/WWVB.production.elf elf32-pic30)
 LOAD FSEC
@@ -1739,11 +1741,11 @@ __c30_signature
  __c30_signature
                   0x00047a          0x6 build/default/production/DisplayComands.o
  __c30_signature
-                  0x000480          0x6 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
+                  0x000480          0x6 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(crt0_extendedep.o)
  __c30_signature
-                  0x000486          0x6 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(data_init_extended.o)
+                  0x000486          0x6 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(data_init_extended.o)
  __c30_signature
-                  0x00048c          0x6 c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(delay32ep.Leo)
+                  0x00048c          0x6 /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(delay32ep.Leo)
 
 .nbss               0x1000         0x1e
  .nbss              0x1000         0x18 build/default/production/mcc_generated_files/i2c1.o
@@ -1818,19 +1820,20 @@ __c30_signature
  .ivt._MI2C1Interrupt
                   0x000036          0x2 build/default/production/mcc_generated_files/i2c1.o
 
-.const              0x85aa         0x14 load address 0x0005aa  
- .const             0x85aa         0x12 build/default/production/main.o
-                    0x85aa                  _MemAddress
-                    0x85ab                  _OSXAddress
-                    0x85ac                  _SmpHldAddress
-                    0x85ad                  _RFAddress
- .const             0x85bc          0x2 build/default/production/DisplayComands.o
-                    0x85bc                  _DispAddress
+.const              0x835a         0x14 load address 0x00035a  
+ .const             0x835a         0x12 build/default/production/main.o
+                    0x835a                  _MemAddress
+                    0x835b                  _OSXAddress
+                    0x835c                  _SmpHldAddress
+                    0x835d                  _RFAddress
+ .const             0x836c          0x2 build/default/production/DisplayComands.o
+                    0x836c                  _DispAddress
 
-.text             0x0005be        0x44c
- .text            0x0005be        0x1e2 build/default/production/mcc_generated_files/i2c1.o
-                  0x0005be                  _I2C1_Initialize
-                  0x0005f4                  _I2C1_ErrorCountGet
+.text             0x00036e        0x69c
+ .text            0x00036e        0x432 build/default/production/mcc_generated_files/i2c1.o
+                  0x00036e                  _I2C1_Initialize
+                  0x0003a4                  _I2C1_ErrorCountGet
+                  0x0003b2                  __MI2C1Interrupt
                   0x00063e                  _I2C1_MasterWrite
                   0x000670                  _I2C1_MasterRead
                   0x0006a2                  _I2C1_MasterTRBInsert
@@ -1865,7 +1868,7 @@ __c30_signature
  .dinit           0x000a0a         0x22 data_init
 
 .init.delay32     0x000a2c         0x1c
- .init.delay32    0x000a2c         0x1c c:/program files (x86)/microchip/xc16/v1.32/bin/bin/../../lib\liblega-pic30-elf.a(delay32ep.Leo)
+ .init.delay32    0x000a2c         0x1c /Applications/microchip/xc16/v1.31/bin/bin/../../lib/liblega-pic30-elf.a(delay32ep.Leo)
                   0x000a2c                  ___delay32
 
 .text             0x000a48         0x30
